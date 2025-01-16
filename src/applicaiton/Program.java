@@ -1,5 +1,7 @@
 package applicaiton;
 
+import model.entities.Department;
+
 public class Program {
 	
 	/*  DAO: para cada entidade, haverá um objeto responsável por fazer acesso a dados relacionado a esta entidade  
@@ -9,6 +11,9 @@ public class Program {
 	 */
 
 	public static void main(String[] args) {
+		
+		Department obj = new Department(1, "Books");
+		System.out.println(obj);
 		
 
 	}
